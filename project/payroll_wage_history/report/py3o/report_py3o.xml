@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="py3o_payroll_wage_history" model="ir.actions.report">
+        <field name="name">Payroll Wage History</field>
+        <field name="model">payroll.wage.history</field>
+        <field name="report_name">salary.adjustment.form</field>
+        <field name="report_type">py3o</field>
+        <field name="py3o_filetype">pdf</field>
+        <field name="py3o_template_id" ref="payroll_wage_history.payroll_wage_history_py3o"/>
+        <field name="module">payroll_wage_history</field>
+        <field name="print_report_name">'Salary Adjustment Form'</field>
+    </record>
+
+    <record id="py3o_wage_history_summary" model="ir.actions.report">
+        <field name="name"> Payroll Wage History</field>
+        <field name="model">payroll.wage.history.wizard</field>
+        <field name="report_name">wage.history.summary</field>
+        <field name="report_type">py3o</field>
+        <field name="py3o_filetype">xls</field>
+        <field name="py3o_template_id" ref="payroll_wage_history.wage_history_summary_py3o"/>
+        <field name="py3o_template_fallback" ref="payroll_wage_history.wage_history_summary_py3o"/>
+        <field name="module">report_py3o</field>
+        <field name="print_report_name">'Wage History Summary'</field>
+        <field name="binding_model_id" ref="model_payroll_wage_history_wizard" />
+        <field name="binding_type">report</field>
+    </record>
+</odoo>

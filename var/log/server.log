@@ -1,0 +1,70 @@
+2021-11-01 06:32:36,046 100341 DEBUG ? odoo.netsvc: logger level set: "odoo.http.rpc.request:INFO" 
+2021-11-01 06:32:36,047 100341 DEBUG ? odoo.netsvc: logger level set: "odoo.http.rpc.response:INFO" 
+2021-11-01 06:32:36,047 100341 DEBUG ? odoo.netsvc: logger level set: ":INFO" 
+2021-11-01 06:32:36,047 100341 DEBUG ? odoo.netsvc: logger level set: "odoo:DEBUG" 
+2021-11-01 06:32:36,047 100341 DEBUG ? odoo.netsvc: logger level set: "odoo.sql_db:INFO" 
+2021-11-01 06:32:36,047 100341 DEBUG ? odoo.netsvc: logger level set: "odoo.http.rpc.request:DEBUG" 
+2021-11-01 06:32:36,047 100341 DEBUG ? odoo.netsvc: logger level set: ":INFO" 
+2021-11-01 06:32:36,047 100341 INFO ? odoo: Odoo version 13.0 
+2021-11-01 06:32:36,047 100341 INFO ? odoo: Using configuration file at /home/tien/Desktop/intesco/config/server.conf 
+2021-11-01 06:32:36,048 100341 INFO ? odoo: addons paths: ['/home/tien/Desktop/intesco/odoo/odoo/addons', '/home/tien/Desktop/intesco/var/filestore/addons/13.0', '/home/tien/Desktop/intesco/odoo/addons', '/home/tien/Desktop/intesco/addons', '/home/tien/Desktop/intesco/addons/addons-oca/project', '/home/tien/Desktop/intesco/addons/addons-oca/reporting-engine', '/home/tien/Desktop/intesco/project', '/home/tien/Desktop/intesco/addons/addons-oca/web', '/home/tien/Desktop/intesco/addons/addons-oca/server-auth', '/home/tien/Desktop/intesco/addons/addons-oca/server-tools', '/home/tien/Desktop/intesco/addons/addons-oca/server-ux', '/home/tien/Desktop/intesco/addons/addons-extra'] 
+2021-11-01 06:32:36,048 100341 INFO ? odoo: database: ims@localhost:5432 
+2021-11-01 06:32:37,709 100341 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2021-11-01 06:32:39,292 100341 INFO ? odoo.service.server: HTTP service (werkzeug) running on 0.0.0.0:8668 
+2021-11-01 06:32:39,292 100341 DEBUG ? odoo.service.server: Multiprocess starting 
+2021-11-01 06:32:39,295 100456 INFO ? odoo.service.server: Worker WorkerHTTP (100456) alive 
+2021-11-01 06:32:39,299 100457 INFO ? odoo.service.server: Worker WorkerHTTP (100457) alive 
+2021-11-01 06:32:40,486 100458 DEBUG ? odoo.netsvc: logger level set: "odoo.http.rpc.request:INFO" 
+2021-11-01 06:32:40,486 100458 DEBUG ? odoo.netsvc: logger level set: "odoo.http.rpc.response:INFO" 
+2021-11-01 06:32:40,486 100458 DEBUG ? odoo.netsvc: logger level set: ":INFO" 
+2021-11-01 06:32:40,486 100458 DEBUG ? odoo.netsvc: logger level set: "odoo:DEBUG" 
+2021-11-01 06:32:40,486 100458 DEBUG ? odoo.netsvc: logger level set: "odoo.sql_db:INFO" 
+2021-11-01 06:32:40,486 100458 DEBUG ? odoo.netsvc: logger level set: "odoo.http.rpc.request:DEBUG" 
+2021-11-01 06:32:40,486 100458 DEBUG ? odoo.netsvc: logger level set: ":INFO" 
+2021-11-01 06:32:40,487 100458 INFO ? odoo: Odoo version 13.0 
+2021-11-01 06:32:40,487 100458 INFO ? odoo: Using configuration file at /home/tien/Desktop/intesco/config/server.conf 
+2021-11-01 06:32:40,487 100458 INFO ? odoo: addons paths: ['/home/tien/Desktop/intesco/odoo/odoo/addons', '/home/tien/Desktop/intesco/var/filestore/addons/13.0', '/home/tien/Desktop/intesco/odoo/addons', '/home/tien/Desktop/intesco/addons', '/home/tien/Desktop/intesco/addons/addons-oca/project', '/home/tien/Desktop/intesco/addons/addons-oca/reporting-engine', '/home/tien/Desktop/intesco/project', '/home/tien/Desktop/intesco/addons/addons-oca/web', '/home/tien/Desktop/intesco/addons/addons-oca/server-auth', '/home/tien/Desktop/intesco/addons/addons-oca/server-tools', '/home/tien/Desktop/intesco/addons/addons-oca/server-ux', '/home/tien/Desktop/intesco/addons/addons-extra'] 
+2021-11-01 06:32:40,487 100458 INFO ? odoo: database: ims@localhost:5432 
+2021-11-01 06:32:40,664 100458 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2021-11-01 06:32:41,041 100458 INFO ? odoo.service.server: Evented Service (longpolling) running on 0.0.0.0:8072 
+2021-11-01 06:41:26,642 100341 DEBUG ? odoo.service.server: Multiprocess clean stop 
+2021-11-01 06:41:26,642 100456 INFO ? odoo.service.server: Worker (100456) exiting. request_count: 0, registry count: 0. 
+2021-11-01 06:41:26,648 100341 INFO ? odoo.service.server: Stopping gracefully 
+2021-11-01 06:41:26,643 100457 INFO ? odoo.service.server: Worker (100457) exiting. request_count: 0, registry count: 0. 
+2021-11-01 06:41:26,949 100341 DEBUG ? odoo.service.server: Worker (100456) unregistered 
+2021-11-01 06:41:26,950 100341 DEBUG ? odoo.service.server: Worker (100457) unregistered 
+2021-11-01 06:41:33,404 101769 DEBUG ? odoo.netsvc: logger level set: "odoo.http.rpc.request:INFO" 
+2021-11-01 06:41:33,404 101769 DEBUG ? odoo.netsvc: logger level set: "odoo.http.rpc.response:INFO" 
+2021-11-01 06:41:33,404 101769 DEBUG ? odoo.netsvc: logger level set: ":INFO" 
+2021-11-01 06:41:33,404 101769 DEBUG ? odoo.netsvc: logger level set: "odoo:DEBUG" 
+2021-11-01 06:41:33,404 101769 DEBUG ? odoo.netsvc: logger level set: "odoo.sql_db:INFO" 
+2021-11-01 06:41:33,404 101769 DEBUG ? odoo.netsvc: logger level set: "odoo.http.rpc.request:DEBUG" 
+2021-11-01 06:41:33,404 101769 DEBUG ? odoo.netsvc: logger level set: ":INFO" 
+2021-11-01 06:41:33,404 101769 INFO ? odoo: Odoo version 13.0 
+2021-11-01 06:41:33,404 101769 INFO ? odoo: Using configuration file at /home/tien/Desktop/intesco/config/server.conf 
+2021-11-01 06:41:33,405 101769 INFO ? odoo: addons paths: ['/home/tien/Desktop/intesco/odoo/odoo/addons', '/home/tien/Desktop/intesco/var/filestore/addons/13.0', '/home/tien/Desktop/intesco/odoo/addons', '/home/tien/Desktop/intesco/addons', '/home/tien/Desktop/intesco/addons/addons-oca/project', '/home/tien/Desktop/intesco/addons/addons-oca/reporting-engine', '/home/tien/Desktop/intesco/project', '/home/tien/Desktop/intesco/addons/addons-oca/web', '/home/tien/Desktop/intesco/addons/addons-oca/server-auth', '/home/tien/Desktop/intesco/addons/addons-oca/server-tools', '/home/tien/Desktop/intesco/addons/addons-oca/server-ux', '/home/tien/Desktop/intesco/addons/addons-extra'] 
+2021-11-01 06:41:33,405 101769 INFO ? odoo: database: ims@localhost:5432 
+2021-11-01 06:41:33,580 101769 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2021-11-01 06:41:33,725 101769 INFO ? odoo.service.server: HTTP service (werkzeug) running on 0.0.0.0:8668 
+2021-11-01 06:41:33,725 101769 DEBUG ? odoo.service.server: Multiprocess starting 
+2021-11-01 06:41:33,727 101806 INFO ? odoo.service.server: Worker WorkerHTTP (101806) alive 
+2021-11-01 06:41:33,729 101807 INFO ? odoo.service.server: Worker WorkerHTTP (101807) alive 
+2021-11-01 06:41:34,350 101809 DEBUG ? odoo.netsvc: logger level set: "odoo.http.rpc.request:INFO" 
+2021-11-01 06:41:34,350 101809 DEBUG ? odoo.netsvc: logger level set: "odoo.http.rpc.response:INFO" 
+2021-11-01 06:41:34,350 101809 DEBUG ? odoo.netsvc: logger level set: ":INFO" 
+2021-11-01 06:41:34,350 101809 DEBUG ? odoo.netsvc: logger level set: "odoo:DEBUG" 
+2021-11-01 06:41:34,350 101809 DEBUG ? odoo.netsvc: logger level set: "odoo.sql_db:INFO" 
+2021-11-01 06:41:34,350 101809 DEBUG ? odoo.netsvc: logger level set: "odoo.http.rpc.request:DEBUG" 
+2021-11-01 06:41:34,350 101809 DEBUG ? odoo.netsvc: logger level set: ":INFO" 
+2021-11-01 06:41:34,351 101809 INFO ? odoo: Odoo version 13.0 
+2021-11-01 06:41:34,351 101809 INFO ? odoo: Using configuration file at /home/tien/Desktop/intesco/config/server.conf 
+2021-11-01 06:41:34,351 101809 INFO ? odoo: addons paths: ['/home/tien/Desktop/intesco/odoo/odoo/addons', '/home/tien/Desktop/intesco/var/filestore/addons/13.0', '/home/tien/Desktop/intesco/odoo/addons', '/home/tien/Desktop/intesco/addons', '/home/tien/Desktop/intesco/addons/addons-oca/project', '/home/tien/Desktop/intesco/addons/addons-oca/reporting-engine', '/home/tien/Desktop/intesco/project', '/home/tien/Desktop/intesco/addons/addons-oca/web', '/home/tien/Desktop/intesco/addons/addons-oca/server-auth', '/home/tien/Desktop/intesco/addons/addons-oca/server-tools', '/home/tien/Desktop/intesco/addons/addons-oca/server-ux', '/home/tien/Desktop/intesco/addons/addons-extra'] 
+2021-11-01 06:41:34,351 101809 INFO ? odoo: database: ims@localhost:5432 
+2021-11-01 06:41:34,520 101809 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2021-11-01 06:41:34,626 101809 INFO ? odoo.service.server: Evented Service (longpolling) running on 0.0.0.0:8072 
+2021-11-01 06:49:04,927 101769 DEBUG ? odoo.service.server: Multiprocess clean stop 
+2021-11-01 06:49:04,927 101807 INFO ? odoo.service.server: Worker (101807) exiting. request_count: 0, registry count: 0. 
+2021-11-01 06:49:04,938 101769 INFO ? odoo.service.server: Stopping gracefully 
+2021-11-01 06:49:04,927 101806 INFO ? odoo.service.server: Worker (101806) exiting. request_count: 0, registry count: 0. 
+2021-11-01 06:49:05,138 101769 DEBUG ? odoo.service.server: Worker (101806) unregistered 
+2021-11-01 06:49:05,139 101769 DEBUG ? odoo.service.server: Worker (101807) unregistered 

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record model="py3o.template" id="payroll_wage_history_py3o">
+        <field name="name">salary.adjustment.form.odt</field>
+        <field name="filetype">odt</field>
+        <field name="py3o_template_data" type="base64" file="payroll_wage_history/report/py3o/templates/salary_adjustment_form.odt"/>
+    </record>
+
+    <record model="py3o.template" id="wage_history_summary_py3o">
+        <field name="name">wage.history.summary.ods</field>
+        <field name="filetype">odt</field>
+        <field name="py3o_template_data" type="base64" file="payroll_wage_history/report/py3o/templates/wage_history_summary.ods"/>
+    </record>
+</odoo>

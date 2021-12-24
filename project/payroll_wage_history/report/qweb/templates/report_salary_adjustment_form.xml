@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="report_salary_adjustment_form">
+        <t t-call="web.basic_layout">
+            <t t-foreach="docs" t-as="doc">
+                <img
+                    t-att-src='image_data_uri(doc.employee_id.company_id.logo)'
+                />
+                <div style='font-family: san-serif'>
+                    <div class='row'>
+                        <p class='col-6'>
+                            <t t-esc="doc.employee_id.company_id.name" /> <br/>
+                            Số/No: <t t-esc="doc.revision" /><br/>
+                            V/v: Nâng lương<br/>
+                            Subject: <t t-esc="doc.current_payroll_wage" />
+                        </p>
+                        <p class='col-6' style='text-align:center'>
+                            CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM<br/>
+                            Độc lập - Tự do - Hạnh phúc<br/>
+                            THE SOCIALIST REPUBLIC OF VIETNAM<br/>
+                            Independence – Freedom – Happiness<br/>
+                            ---- oOo ----
+                        </p>
+                    </div>
+                    <p> -Căn cứ vào Bộ Luật Lao động của nước Cộng Hòa Xã Hội chủ nghĩa Việt Nam và các nghị định văn bản hướng dẫn thi hành Bộ Luật Lao Động; <br/>
+                        Pursuant to the Labor Code of the Social Republic of VietNam and the Decrees on implementing the Labor Code;<br/>
+                        - Căn cứ vào đề nghị của ban giám đốc <t t-esc="doc.employee_id.company_id.name" /><br/>
+                        Pursuant to the proposal of Management Board of <t t-esc="doc.employee_id.company_id.name" />
+                    </p>
+                    <div style='text-align:center'>
+                        <b>GIÁM ĐỐC <t t-esc="doc.employee_id.company_id.name" /></b> <br/>
+                        <b>DIRECTOR OF <t t-esc="doc.employee_id.company_id.name" /></b> <br/>
+                        <b>QUYẾT ĐỊNH</b> <br/>
+                        <b>DECIDES</b> 
+                    </div>
+                    <p><b>Điều 1</b>: Nâng lương của <t t-esc="doc.employee_id.name" />, chức vụ: <t t-esc="doc.job_id.name"/> kể từ <span t-field="doc.effective_date" t-field-options='{"format": "dd/mm/yyyy"}'/> <br/>
+                        <b>Article 1</b>: To increase the salary of  <t t-esc="doc.name_english()" />, <t t-esc="doc.job_id.name"/> position, effectively from <span t-field="doc.effective_date" t-field-options='{"format": "mm/dd/yyyy"}'/>
+                    </p>
+                    <p>
+                        <b>Điều 2</b>: <t t-esc="doc.gender_change()" /> <t t-esc="doc.employee_id.name" /> sẽ nhận được <t t-esc="doc.current_payroll_wage" /><br/>
+                        <b>Article 2</b>: <t t-esc="doc.gender_change_english()" /> <t t-esc="doc.name_english()" /> will receive <t t-esc="doc.current_payroll_wage" /> 
+                    </p>
+                    <p> 
+                        <b>Điều 3</b>: Phòng nhân sự, Phòng kế toán và <t t-esc="doc.gender_change()"/> <t t-esc="doc.employee_id.name"/> có trách nhiệm thi hành quyết định này.<br/>
+                        <b>Article 3</b>: Human Resources department, Accounting department, and <t t-esc="doc.gender_change_english()" /> <t t-esc="doc.name_english()" /> shall be responsible for implementing this decision.
+                    </p>
+                    <p>
+                        <b>Điều 4</b>: Quyết định này có hiệu lực kể từ <span t-field="doc.effective_date" t-field-options='{"format": "dd/mm/yyyy"}'/> và là một phần không thể tách rời Hợp đồng lao động số <t t-esc="doc.contract_id.name" /> ký <span t-field="doc.effective_date" t-field-options='{"format": "dd/mm/yyyy"}'/>. Lương được quy định trong các hợp đồng trước đây và các quyết định trước (nếu có) sẽ chấm dứt hiệu lực từ <span t-field="doc.effective_date" t-field-options='{"format": "mm/dd/yyyy"}'/><br/>
+                        <b>Article 4</b>: This decision is valid from <span t-field="doc.effective_date" t-field-options='{"format": "dd/mm/yyyy"}'/> and is considered as integration of the Labor contract <t t-esc="doc.contract_id.name" /> signed on <span t-field="doc.effective_date" t-field-options='{"format": "dd/mm/yyyy"}'/>. The salary and allowances (if applicable) mentioned in the previous contracts and the last decisions (if applicable) won't be effective from <span t-field="doc.effective_date" t-field-options='{"format": "mm/dd/yyyy"}'/>.
+                    </p>
+                    <p>
+                        <b>Điều 5</b>: Quyết định này được làm thành 2 bản có giá trị như nhau.<br/>
+                        <b>Article 5</b>: This decision shall be made in two copies, both having equal value.
+                    </p>
+                    <div class='row'>
+                        <p class='col-6'>
+                            Nơi nhận / Receiver<br/>
+                            - <t t-esc="doc.gender_change()"/> <t t-esc="doc.gender_change_english()"/> <t t-esc="doc.employee_id.name" /> <br/>
+                            - Lưu / For Archive<br/>
+                        </p>
+                        <p class='col-6' style='text-align:center'>
+                            GIÁM ĐỐC / DIRECTOR<br/>
+                            Đã ký (signed)
+                        </p>
+                    </div>
+                </div>
+            </t>
+        </t>
+    </template>
+
+
+</odoo>

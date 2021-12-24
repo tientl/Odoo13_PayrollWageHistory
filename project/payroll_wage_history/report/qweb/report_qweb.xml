@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <report
+        string='Salary Adjustment Form'
+        id='action_report_salary_adjust_form'
+        model='payroll.wage.history'
+        report_type='qweb-pdf'
+        menu='True'
+        name='payroll_wage_history.report_salary_adjustment_form'
+        file='payroll_wage_history.report_salary_adjustment_form'
+        print_report_name="'Salary Adjustment Form'"
+    />
+</odoo>

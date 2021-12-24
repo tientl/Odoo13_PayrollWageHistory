@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <report
+        string='Wage history summary'
+        id='action_report_xlsx'
+        model='payroll.wage.history.wizard'
+        report_type='xlsx'
+        name='payroll_wage_history.wage_history_summary_xlsx'
+        file='payroll_wage_history.wage_history_summary_xlsx'
+        attachment_use="False"
+    />
+</odoo>

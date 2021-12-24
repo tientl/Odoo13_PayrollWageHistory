@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data >
+        <record id="reporting_wizard_view" model="ir.ui.view">
+            <field name="name">reporting.wizard.view</field>
+            <field name="model">payroll.wage.history.wizard</field>
+            <field name="arch" type="xml">
+                <form>
+                    <group>
+                        <group>
+                            <field name='from_date'/>
+                        </group>
+                        <group>
+                            <field name='to_date' />
+                        </group>
+                    </group>
+
+                    <group string='Filter'>
+                        <field name='employee_ids' widget="many2many_tags"/>
+                        <field name='job_ids' widget="many2many_tags"/>
+                        <field name='department_ids' widget="many2many_tags"/>
+                    </group>
+
+                    <group string='Result filter'>
+                        <field name='wage_history_ids' />
+                    </group>
+
+                    <footer>
+                        <button name="%(py3o_wage_history_summary)d" type="action" string="Print-py3o" class="oe_highlight" />
+                        <button name="%(action_report_xlsx)d" type="action" string="Print-Xlsx" class="oe_highlight" />
+                        <button name="filter_wizard_action" type="object" string="Filter" class="oe_highlight" />
+                        <button special="cancel" string="Cancel" />
+                    </footer>
+                </form>
+
+            </field>
+        </record>
+
+        <record id="reporting_wizard_view_action" model="ir.actions.act_window">
+            <field name="name">Reporting</field>
+            <field name="res_model">payroll.wage.history.wizard</field>
+            <field name='view_id' ref='reporting_wizard_view'/>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+        </record>
+    </data>
+</odoo>

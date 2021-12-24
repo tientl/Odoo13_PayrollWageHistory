@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_payroll_wage_history,access_payroll_wage_history,model_payroll_wage_history,,1,0,0,0
+access_payroll_wage_hr_user,access.payroll.wage.hr.user,model_payroll_wage_history,hr.group_hr_user,1,1,0,0
+access_payroll_wage_user,access.payroll.wage.user,model_payroll_wage_history,base.group_user,1,0,0,0
+
+
